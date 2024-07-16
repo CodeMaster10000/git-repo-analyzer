@@ -9,6 +9,7 @@ Afterward, collects analysis for the project and extracts the technical debt for
 
 - Java 21
 - Maven 3.9.7 and above
+- Running Sonarqube instance
 
 ## Setup
 
@@ -27,14 +28,16 @@ Afterward, collects analysis for the project and extracts the technical debt for
 
 3. **Setup**
 
-   Go to the repo-data directory and inside the repositories.xml file,
-   append any repo urls of your choice in the format:
+   - Go to the repo-data directory and inside the repositories.xml file,
+     append any repo urls of your choice in the format:
    
    ```xml
    <repository>
         <url>git-repo-url</url>
     </repository>
    ```
+   
+   - Inside the `application.properties` configure the settings for the `SonarQube` server instance
 
 4. **Run the application**
 
