@@ -6,6 +6,8 @@ mvnw.cmd
 mvnw
 .mvn
 
+data
+
 ### STS ###
 .apt_generated
 .classpath

@@ -1,6 +1,6 @@
 # Git Repo Analyzer
 
-Git Repo Analyzer is a Modulith, event-driver Java application that reads from a datasource of repositories.
+Git Repo Analyzer is a Modulith, event-driven Java application that reads from a datasource of repositories.
 For each repository url, creates a process that clones the repository locally, inside the repo,
 it creates a SonarQube project for the project inside the repository.
 Afterward, collects analysis for the project and extracts the technical debt for the project.
