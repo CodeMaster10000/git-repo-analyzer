@@ -1,3 +1,0 @@
-2024-06-27 00:50:43.894856+02:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "APPLICATION_JOB_ENTITY" not found (this database is empty); SQL statement:
-insert into application_job_entity (job_message,job_name,start_time,id) values (?,?,?,default) [42104-224]
