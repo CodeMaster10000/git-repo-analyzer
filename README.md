@@ -26,7 +26,7 @@ Afterward, collects analysis for the project and extracts the technical debt for
     mvn clean install
     ```
 
-3. **Setup**
+3. **Configuration**
 
    - Go to the repo-data directory and inside the repositories.xml file,
      append any repo urls of your choice in the format:
